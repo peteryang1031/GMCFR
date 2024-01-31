@@ -29,9 +29,9 @@ We tune hyper-parameters according to the following table.
 | batchSize      | batch size of each mini-batch | \{16, 32, 64, 128\} |
 | dim_backbone    | the dimensions of representation  | \{32, 64, 128\}                         |
 | dim_task    | the dimensions of prediction head | \{32, 64, 128\}                         |
-| \alpha              | weight of Gromov-Wasserstein distance               | \{0.1, 0.3, 0.5, 0.7, 0.9\}                         |
-| \beta       | weight of fused Gromov-Wasserstein distance            | \{0.1, 0.3, 0.5, 0.7, 0.9\}                              |
-| \lambda           | weight of OT regularization    | \{0.0001, 0.001, 0.01, 0.1, 1\}                               |
+| alpha              | weight of Gromov-Wasserstein distance               | \{0.1, 0.3, 0.5, 0.7, 0.9\}                         |
+| beta       | weight of fused Gromov-Wasserstein distance            | \{0.1, 0.3, 0.5, 0.7, 0.9\}                              |
+| lambda           | weight of OT regularization    | \{0.0001, 0.001, 0.01, 0.1, 1\}                               |
 
 
 As different base models have different hyper-paramerters to tune, you can view the details in corresponding model files.
